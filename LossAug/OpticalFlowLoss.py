@@ -24,7 +24,7 @@ try:
 finally:
   os.chdir('..')
 
-from pytti.Transforms import apply_flow
+#from pytti.Transforms import apply_flow # sigh...
 from pytti import fetch, to_pil, DEVICE, vram_usage_mode
 from pytti.Image.RGBImage import RGBImage
 

@@ -154,7 +154,7 @@ class EMAImage(DifferentiableImage):
   def decode(self, tensor):
     raise NotImplementedError
 
-from pytti.Image.PixelImage import PixelImage
+#from pytti.Image.PixelImage import PixelImage
 from pytti.Image.RGBImage import RGBImage
 from pytti.Image.VQGANImage import VQGANImage
 

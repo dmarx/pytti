@@ -5,7 +5,8 @@ from torch import nn
 from torch.nn import functional as F
 from torchvision.transforms import functional as TF
 import re, math
-from CLIP import clip
+#from CLIP import clip
+from pytti.CLIP import clip
 import pytti
 from PIL import Image
 from pytti.Image import RGBImage
