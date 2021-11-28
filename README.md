@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmarx/pytti/blob/master/PYTTI_pseudo_clone.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmarx/pytti/blob/reverse-engineering/PYTTI_pseudo_clone.ipynb)
 
 # pytti
 python text to image - [David Marx](https://twitter.com/DigThatData) edition
