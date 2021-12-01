@@ -1,6 +1,12 @@
 from os.path import exists as path_exists
 import sys, subprocess
 
+## dmarx debugging code
+from loguru import logger
+import os
+logger.debug(os.getcwd())
+## /debugging
+
 if not path_exists("./taming-transformers"):
     raise FileNotFoundError("ERROR: taming-transformers is missing!")
 if "./taming-transformers" not in sys.path:

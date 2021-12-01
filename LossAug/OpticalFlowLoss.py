@@ -15,14 +15,19 @@ import matplotlib.pyplot as plt
 from pytti.Notebook import Rotoscoper
 from torchvision.transforms import functional as TF
 
-os.chdir("GMA")
+#os.chdir("GMA")
 try:
-    sys.path.append("core")
-    from network import RAFTGMA
-    from utils import flow_viz
-    from utils.utils import InputPadder
+    #sys.path.append("core")
+    sys.path.append("./GMA/core")
+    #from network import RAFTGMA
+    #from utils import flow_viz
+    #from utils.utils import InputPadder
+    from GMA.core.network import RAFTGMA
+    from GMA.core.utils import flow_viz
+    from GMA.core.utils.utils import InputPadder
 finally:
-    os.chdir("..")
+    #os.chdir("..")
+    pass
 
 from pytti.Transforms import apply_flow
 from pytti import fetch, to_pil, DEVICE, vram_usage_mode
